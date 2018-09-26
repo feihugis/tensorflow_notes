@@ -1,0 +1,2 @@
+- `./configure`
+- `bazel build -c dbg //tensorflow/tools/pip_package:build_pip_package`
