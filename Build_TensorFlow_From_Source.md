@@ -47,4 +47,9 @@ $ pip install -U --user keras_preprocessing==1.0.3 --no-deps
 
   - configure: `$ ./configure`
 
-  - build: `$ bazel build -c dbg //tensorflow/tools/pip_package:build_pip_package`
+  - build: 
+  ```
+  $ bazel build -c dbg //tensorflow/tools/pip_package:build_pip_package
+  $ ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+  $ pip install /tmp/tensorflow_pkg/tensorflow-version-cp27-cp27mu-linux_x86_64.whl
+  ```
