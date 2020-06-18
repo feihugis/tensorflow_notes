@@ -5,3 +5,6 @@
     - `pip install pylint`
     - `wget -O /tmp/pylintrc https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/tools/ci_build/pylintrc`
     - `pylint --rcfile=/tmp/pylintrc tensorflow/python/data/keops/dataset_ops.py`
+
+- BUILD
+`buildifier tensorflow/tensorflow/core/kernels/data/BUILD`

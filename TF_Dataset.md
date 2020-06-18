@@ -10,3 +10,8 @@
 
 -  tensorflow/core/kernels/data/optional_ops.cc
 
+
+- Performance issues:
+    - https://github.com/tensorflow/tensorflow/issues/13101
+
+    ParallelMapIteratorBase::Initialize
